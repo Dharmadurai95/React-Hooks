@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import UseReducer from './useReducer/useReducer';
+import UseEff from './useEff_useRedu/UseEff';
+import UsCallback from './useCall/usCallback';
+import CustomHooks from './customHooks.js/useCustom';
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <UseReducer /> */}
+     {/* <UseEff /> */}
+     {/* <UsCallback /> */}
+     <CustomHooks />
     </div>
   );
 }
